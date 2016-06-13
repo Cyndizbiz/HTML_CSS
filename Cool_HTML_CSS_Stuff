@@ -55,7 +55,7 @@
 
     <div>
         <div>
-            <h2>Coding</h2>
+            <h2>Displaying Coding</h2>
         <p>
             So what if you wanted to display some code? HTML normally doesn't display it correctly because it has variable letter size and spacing. Below are some cool ways to display coding samples in HTML.
         </p>
