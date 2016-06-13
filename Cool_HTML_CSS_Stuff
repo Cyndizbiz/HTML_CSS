@@ -41,6 +41,7 @@
 
     	h3{
     		color: green;
+    		margin: 50 px;
     	}
 
     </style>
@@ -49,7 +50,6 @@
     <div>
     <h1><b>COOL HTML/CSS STUFF</b></h1>
     <p class="lead">This page was created to display some cool HTML and CSS techniques. It's a work in progress, so keep checking back for more cool stuff.</p>
-    <p><img src="me_002.jpg" alt="Me at Piano" width="175" height="150" /></p>
 
     <h3>Here are some great places to hone your HTML and CSS skills:</h3>
     <div>
@@ -62,54 +62,56 @@
     <div>
         <div>
             <h2>Coding</h2>
-                <blockquote>
-                    So what if you wanted to display some code? HTML normally doesn't display it correctly because it has variable letter size and spacing. Below are some cool ways to display coding samples in HTML.
-                </blockquote>
-            </p>
-            <h3>First lets address the "code" tag</h3>
-        	<p>This allows you to define a piece of programming code:</p>
-        	<code>
-        	var x = 2;
-        	var y = 7;
-        	document.getElementById("demo").innerHTML = x + y;
-        	</code>
-        	<br/>
-        	<p>The only problem is that when we write code, we don't string it all together in a single line like this.</p>
-        	<p>We can overcome this by enclosing the "code" tags within "pre" tags:</p>
-        	<pre>
-        	<code>
-        	var x = 2;
-    		var y = 7;
-    		document.getElementById("demo").innerHTML = x + y;
-        	</code>
-        	</pre>
-        	<h3>The "samp" tag</h3>
-          	<p>This tag allows you to display sample output from a computer program as it would appear in the cmd:</p>
-          	<samp>
-          	sample.example.com login: Jun 13, 10:30:15
-          	Linux 3.4.1-abc+xyz+i+efg+5a+zxy-reslog-v5.122
-            </samp>
+        <p>
+            So what if you wanted to display some code? HTML normally doesn't display it correctly because it has variable letter size and spacing. Below are some cool ways to display coding samples in HTML.
+        </p>
+            <blockquote><h3>First lets address the "code" tag</h3>
+				<p>This allows you to define a piece of programming code:</p>
+				<code>
+				var x = 2;
+				var y = 7;
+				document.getElementById("demo").innerHTML = x + y;
+				</code>
+				<br/>
+				<p>The only problem is that when we write code, we don't string it all together in a single line like this.</p>
+				<p>We can overcome this by enclosing the "code" tags within "pre" tags:</p>
+				<pre>
+				<code>
+				var x = 2;
+				var y = 7;
+				document.getElementById("demo").innerHTML = x + y;
+				</code>
+				</pre>
+				<h3>The "samp" tag</h3>
+				<p>This tag allows you to display sample output from a computer program as it would appear in the cmd:</p>
+				<samp>
+				sample.example.com login: Jun 13, 10:30:15
+				Linux 3.4.1-abc+xyz+i+efg+5a+zxy-reslog-v5.122
+				</samp>
+			</blockquote>
         </div>
         <div>
             <h2>Some Cool Text Stuff</h2>
-          	<h3>Wouldn't it be cool if you could reverse your text?</h3>
-          	<b>I said...</b>
-          	<p><bdo dir="rtl">Wouldn't it be cool if you could reverse your text?</bdo></p>
-          	<p>You can! With the "bdo" tag using the attribute dir="rtl"</p>
+			<blockquote>
+				<h3>Wouldn't it be cool if you could reverse your text?</h3>
+				<b>I said...</b>
+				<p><bdo dir="rtl">Wouldn't it be cool if you could reverse your text?</bdo></p>
+				<p>Use the "bdo" tag with the attribute dir="rtl"</p>
 
-            <h3>Here is an example of some <small>Small</small> text.</h3>
-            <p>Yep! You guessed it... use the "small" tag.</p>
+				<h3>Here is an example of some <small>Small</small> text.</h3>
+				<p>Yep! You guessed it... use the "small" tag.</p>
 
-            <h3>What if I want to <mark>Highlight</mark> some text?</h3>
-            <p>Just use the "mark" tag</p>
+				<h3>What if I want to <mark>Highlight</mark> some text?</h3>
+				<p>Use the "mark" tag</p>
 
-            <h3>You can even cross out text</h3>
-            <p>Use the "del" <del>taco</del> tag</p>
+				<h3>You can even cross out text</h3>
+				<p>Use the "del" <del>taco</del> tag</p>
 
-            <h3>At times you will need to raise or lower your text</h3>
-            <p>You can accomplish this with the "sub" and "sup" tags</p>
-            <p>E=MC<sup>2</sup></p>
-            <p>H<sub>2</sub>0</p>
+				<h3>At times you will need to raise or lower your text</h3>
+				<p>You can accomplish this with the "sub" and "sup" tags</p>
+				<p>E=MC<sup>2</sup></p>
+				<p>H<sub>2</sub>0</p>
+			</blockquote>
         </div>
         <div>
             <p>Please note this code does not utilize bootstrap or contain any responsive design.</p>
