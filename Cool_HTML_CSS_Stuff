@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool HTML CSS Stuff</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.mini.css">
+    <style>
+    	body{
+    		background-color: lightgray;
+    		margin: 30px;
+    		padding-top: 50px;
+   			padding-bottom: 20px;
+    	}
+
+    	/* Set padding to keep content from hitting the edges */
+		.body-content {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    background-color: lightgray;
+		}
+
+		/* Override the default bootstrap behavior where horizontal description lists 
+		   will truncate terms that are too long to fit in the left column 
+		*/
+		.dl-horizontal dt {
+		    white-space: normal;
+		}
+
+		/* Set width on the form input elements since they're 100% wide by default */
+		input,
+		select,
+		textarea {
+		    max-width: 280px;
+		}
+
+
+    	h2{
+    		color: darkblue;
+    	}
+
+    	h3{
+    		color: green;
+    	}
+
+    </style>
+</head>
+<body>
+    <div>
+    <h1><b>COOL HTML/CSS STUFF</b></h1>
+    <p class="lead">This page was created to display some cool HTML and CSS techniques. It's a work in progress, so keep checking back for more cool stuff.</p>
+    <p><img src="me_002.jpg" alt="Me at Piano" width="175" height="150" /></p>
+
+    <h3>Here are some great places to hone your HTML and CSS skills:</h3>
+    <div>
+    	<ul>
+    		<li> <a href="http://w3schools.com" target="blank">W3Schools.com</a></li>
+    		<li> <a href="http://pluralsight.com" target="blank">PluralSight.com</a></li>
+    	</ul>
+    </div>
+
+    <div>
+        <div>
+            <h2>Coding</h2>
+                <blockquote>
+                    So what if you wanted to display some code? HTML normally doesn't display it correctly because it has variable letter size and spacing. Below are some cool ways to display coding samples in HTML.
+                </blockquote>
+            </p>
+            <h3>First lets address the "code" tag</h3>
+        	<p>This allows you to define a piece of programming code:</p>
+        	<code>
+        	var x = 2;
+        	var y = 7;
+        	document.getElementById("demo").innerHTML = x + y;
+        	</code>
+        	<br/>
+        	<p>The only problem is that when we write code, we don't string it all together in a single line like this.</p>
+        	<p>We can overcome this by enclosing the "code" tags within "pre" tags:</p>
+        	<pre>
+        	<code>
+        	var x = 2;
+    		var y = 7;
+    		document.getElementById("demo").innerHTML = x + y;
+        	</code>
+        	</pre>
+        	<h3>The "samp" tag</h3>
+          	<p>This tag allows you to display sample output from a computer program as it would appear in the cmd:</p>
+          	<samp>
+          	sample.example.com login: Jun 13, 10:30:15
+          	Linux 3.4.1-abc+xyz+i+efg+5a+zxy-reslog-v5.122
+            </samp>
+        </div>
+        <div>
+            <h2>Some Cool Text Stuff</h2>
+          	<h3>Wouldn't it be cool if you could reverse your text?</h3>
+          	<b>I said...</b>
+          	<p><bdo dir="rtl">Wouldn't it be cool if you could reverse your text?</bdo></p>
+          	<p>You can! With the "bdo" tag using the attribute dir="rtl"</p>
+
+            <h3>Here is an example of some <small>Small</small> text.</h3>
+            <p>Yep! You guessed it... use the "small" tag.</p>
+
+            <h3>What if I want to <mark>Highlight</mark> some text?</h3>
+            <p>Just use the "mark" tag</p>
+
+            <h3>You can even cross out text</h3>
+            <p>Use the "del" <del>taco</del> tag</p>
+
+            <h3>At times you will need to raise or lower your text</h3>
+            <p>You can accomplish this with the "sub" and "sup" tags</p>
+            <p>E=MC<sup>2</sup></p>
+            <p>H<sub>2</sub>0</p>
+        </div>
+        <div>
+            <p>Please note this code does not utilize bootstrap or contain any responsive design.</p>
+        </div>
+    </div>
+</body>
+</html>
