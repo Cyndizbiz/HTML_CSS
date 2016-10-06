@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MC="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MC:lastBlockDepth="9" MC:lastHeight="835" MC:lastWidth="946">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MC:dropDown>
+                    <MC:dropDownHead>
+                        <MC:dropDownHotspot class="li">Log into <MC:variable name="General.ProductName" /> and click the <i>Maintenance</i> link</MC:dropDownHotspot>
+                    </MC:dropDownHead>
+                    <MC:dropDownBody>
+                        <p>
+                            <img src="../../../Resources/Images/lnk-Maintenance.png" style="font-style: italic;" />
+                        </p>
+                    </MC:dropDownBody>
+                </MC:dropDown>
+            </li>
+            <li>
+                <MC:dropDown>
+                    <MC:dropDownHead>
+                        <MC:dropDownHotspot class="li">The <i>Maintenance Administration</i> window opens; click <i>Maintain People</i></MC:dropDownHotspot>
+                    </MC:dropDownHead>
+                    <MC:dropDownBody>
+                        <p>
+                            <img src="../../../Resources/Images/lnk-Maintenance-MaintPeop.png" style="font-style: italic;" />
+                        </p>
+                    </MC:dropDownBody>
+                </MC:dropDown>
+            </li>
+            <li>
+                <MC:dropDown>
+                    <MC:dropDownHead>
+                        <MC:dropDownHotspot class="li">The <i>Maintenance People</i> screen opens</MC:dropDownHotspot>
+                    </MC:dropDownHead>
+                    <MC:dropDownBody>
+                        <p>
+                            <img src="../../../Resources/Images/frm-Maintenance-MaintPeop.png" style="font-style: italic;" />
+                        </p>
+                    </MC:dropDownBody>
+                </MC:dropDown>
+            </li>
+        </ol>
+    </body>
+</html>
