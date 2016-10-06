@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MC="http://www.mc.com/Schemas/MadCap.xsd" MC:lastBlockDepth="17" MC:lastHeight="7397" MC:lastWidth="1153">
+    <head>
+    </head>
+    <body>
+        <MC:snippetBlock src="Maint-Peop-OV.flsnp" />
+        <p>
+            <MC:dropDown class="SecondLevel">
+                <MC:dropDownHead>
+                    <MC:dropDownHotspot>Accessing the <MC:variable name="Site.Form" /></MC:dropDownHotspot>
+                </MC:dropDownHead>
+                <MC:dropDownBody>
+                    <MC:snippetBlock src="Maint-Peop-Access.flsnp" />
+                </MC:dropDownBody>
+            </MC:dropDown>
+        </p>
+        <p>
+            <MC:dropDown class="SecondLevel">
+                <MC:dropDownHead>
+                    <MC:dropDownHotspot>Finding People</MC:dropDownHotspot>
+                </MC:dropDownHead>
+                <MC:dropDownBody>
+                    <MC:snippetBlock src="Maint-Peop-PeopFind.flsnp" />
+                </MC:dropDownBody>
+            </MC:dropDown>
+        </p>
+        <p>
+            <MC:dropDown class="SecondLevel">
+                <MC:dropDownHead>
+                    <MC:dropDownHotspot>Adding Data Security to People</MC:dropDownHotspot>
+                </MC:dropDownHead>
+                <MC:dropDownBody>
+                    <MC:snippetBlock src="Maint-Peop-DataSec-Add.flsnp" />
+                </MC:dropDownBody>
+            </MC:dropDown>
+        </p>
+        <p>
+            <MC:dropDown class="SecondLevel">
+                <MC:dropDownHead>
+                    <MC:dropDownHotspot>Removing Data Security from People</MC:dropDownHotspot>
+                </MC:dropDownHead>
+                <MC:dropDownBody>
+                    <MC:snippetBlock src="Maint-Peop-DataSec-Rmv.flsnp" />
+                </MC:dropDownBody>
+            </MC:dropDown>
+        </p>
+        <p>
+            <MC:dropDown class="SecondLevel">
+                <MC:dropDownHead>
+                    <MC:dropDownHotspot>Adding System Security to People</MC:dropDownHotspot>
+                </MC:dropDownHead>
+                <MC:dropDownBody>
+                    <MC:snippetBlock src="Maint-Peop-SysSec-Add.flsnp" />
+                </MC:dropDownBody>
+            </MC:dropDown>
+        </p>
+        <p>
+            <MC:dropDown class="SecondLevel">
+                <MC:dropDownHead>
+                    <MC:dropDownHotspot>Removing System Security from People</MC:dropDownHotspot>
+                </MC:dropDownHead>
+                <MC:dropDownBody>
+                    <MC:snippetBlock src="Maint-Peop-SysSec-Rmv.flsnp" />
+                </MC:dropDownBody>
+            </MC:dropDown>
+        </p>
+    </body>
+</html>
